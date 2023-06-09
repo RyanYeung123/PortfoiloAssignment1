@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Contact Page</title>
+</head>
+<body>
+    <p>Feel free to contact me if you have any questions. And before contacting me, please submit a interactive form below.</p>
+    <!--This is the hyperlink to my email.-->
+    <a href="yyeung22@my.centennialcollege.ca">Email me</a>
+  <h1>Contact Page</h1>
+  <!--This is the information form.-->
+  <form action="home.component.html" method="post">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname" required><br><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lastname" required><br><br>
+
+    <label for="contactNumber">Contact Number:</label>
+    <input type="tel" id="contactNumber" name="contactnumber" required><br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+
